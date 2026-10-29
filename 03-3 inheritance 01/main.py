@@ -23,9 +23,13 @@ def main():
     habil2=Habil("habil2","brown")
     habil2.introduce()
 
-    print("\n=== Use inherited getter and setter ===")
-    habil1.set_eyeColor("Brown")
-    print("Habil's eye color:", habil1.get_eyeColor())
+    # print("\n=== Use inherited getter and setter ===")
+    # habil1.set_eyeColor("Brown")
+    # print("Habil's eye color:", habil1.get_eyeColor())
+
+    # print("prtoected")
+    # habil1.s
+
 
 
 if __name__=='__main__':
