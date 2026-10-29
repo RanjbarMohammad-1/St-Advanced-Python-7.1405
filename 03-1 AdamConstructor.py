@@ -1,14 +1,7 @@
 
 class Adam:
 
-    # 1. Default constructor
-    def __init__(self):
-        self.name = "Unknown"          # Public attribute
-        self.__eyeColor = "Unknown"   # Private attribute
-
-        print("Default constructor called.")
-
-    # 2. Parameterized constructor
+    # 1. Parameterized constructor
     # Python does not support multiple constructors directly.
     # We can use default parameter values instead.
     def __init__(self, name="Unknown", eyeColor="Unknown"):
@@ -17,15 +10,15 @@ class Adam:
 
         print("Constructor called.")
 
-    # 3. Destructor
+    # 2. Destructor
     def __del__(self):
         print("Destructor called for", self.name)
 
-    # 4. Getter for the private attribute
+    # 3. Getter for the private attribute
     def get_eyeColor(self):
         return self.__eyeColor
 
-    # 5. Setter for the private attribute
+    # 4. Setter for the private attribute
     def set_eyeColor(self, eyeColor):
         self.__eyeColor = eyeColor
 
